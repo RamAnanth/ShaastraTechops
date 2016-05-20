@@ -1,0 +1,39 @@
+
+<html>
+<style>
+/*Display text in blue*/
+#ans{
+color:blue;
+margin:10px;
+
+
+}
+</style>
+<!-- Div that stores the answer -->
+<div id="ans">
+</div>
+
+</html>
+<script>
+var i=0;
+var x=['abc','def','ghi'];
+
+
+setInterval(disp,3000);
+
+
+function disp()
+{
+// Assigning div a value
+	document.getElementById("ans").innerHTML=x[i];
+	 i++;
+//if i==3 we have to repeat process 
+	 if(i==3)
+	 i=0;
+}
+
+
+</script>
+
+
+</html>

@@ -6,10 +6,12 @@
 
 <style type="text/css">
 
-#reg-form
-{
-	margin-left: 25px;
+body{
+
+ background:-webkit-linear-gradient(right,rgba(251,229,185,1),rgba(251,229,185,0.8));
 }
+
+
 
 div.navbar-default
 {
@@ -22,7 +24,17 @@ div.navbar-default
 
 	display: none;
 }
-
+#circbox
+	{
+	background-color: white;
+	text-align: left;
+	margin-left:36%;
+    border:3px solid rgb(67,61,26);
+    border-radius:30px; 
+    width:500px;
+    height:800px;
+    padding: 50px;
+    
 
 
 </style>
@@ -30,8 +42,9 @@ div.navbar-default
  
 </head>
 <body>
- 
 <div class="navbar navbar-default"><h1>Registration form</h1></div><!-- default navbar in Bootstrap -->
+ <div id="circbox">
+
 
   <div id="reg-form">
 
@@ -60,7 +73,7 @@ div.navbar-default
   	<button id="submit" class="btn btn-primary">Submit</button>
   	  	<button id="success" class="btn btn-success">Submitted Successfully</button>
    </div>
-
+</div>
 
 <script type="text/javascript" src="jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="angular.min.js"></script>
